@@ -9,9 +9,9 @@ namespace Boxing_E_Unbonxing
             /*
             Boxing: É o processo de conversão de um objeto tipo VALOR
             para um objeto tipo referência compatível.
-            Ele pega o valor da viriável original que esta na memória STACK
+            Ele pega o valor da variável original que esta na memória STACK
             e envia seu valor para a memória tipo HEAP ficando na memória stack
-            apenas a variáves que aponta para esse valor.
+            apenas as variáveis que aponta para esse valor.
             */
 
             int X = 20;
@@ -32,7 +32,7 @@ namespace Boxing_E_Unbonxing
 
             int y = 20;
             Object obj2 = y;
-            int z= (int)obj2; /*É o processo inverso do BOXING, ou seja,
+            int z= (int)obj2; /*É o processo inverso do BOXING, ou seja, UNBOXING,
                                ele atribui o valor do objeto para a variável*/
         }
     }
